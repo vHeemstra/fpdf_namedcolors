@@ -8,9 +8,14 @@ require_once('fpdf.php');
 	Author: Philip van Heemstra - https://github.com/vHeemstra
 	License: Same as FPDF - Free for all! (Would appreciate the mention however)
 
+	The extension to the free FPDF class (www.fpdf.org) adds:
+	1) Named color support
+	2) Hex color support
+
 
 	NAME COLORS
 	-----------
+	To use named colors, first define them by calling the NameColor method providing a name and a color definition, like so:
 	
 		$pdf->NameColor('name_of_color', [255,0,0]);
 
